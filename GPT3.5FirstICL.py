@@ -9,7 +9,7 @@ pdf_text = ""
 for page in doc:
     pdf_text += page.get_text()
     
-api_key = "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"
+api_key = "APIKEY"
 
 headers = {
     "Authorization" : f"Bearer {api_key}",
